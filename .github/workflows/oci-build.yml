@@ -1,0 +1,13 @@
+# OCI build pipeline — disabled until Dockerfile and secrets are configured.
+# Only runs when manually triggered from the Actions tab.
+name: oci-build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: No-op
+        run: echo "OCI build pipeline is not yet configured."
